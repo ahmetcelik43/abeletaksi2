@@ -6,23 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ahmet Çelik</title>
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
-    <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" />
-    <link rel="stylesheet" href="{{ URL::asset('css/all.css') }}" />
+    <link rel="stylesheet" href="{{ URL::asset('storage/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ URL::asset('storage/all.css') }}" />
    
 
     <script src="https://kit.fontawesome.com/d1fc3fdb09.js" crossorigin="anonymous"></script>
 
    <script src="{{ URL::asset('node_modules/bootstrap.native/dist/bootstrap-native.min.js')}}"></script>
 
-   <script src="{{ URL::asset('js/angular.min.js') }}"></script>
-   <script src="{{ URL::asset('js/jquery.min.js') }}"></script>
+   <script src="{{ URL::asset('storage/angular.min.js') }}"></script>
+   <script src="{{ URL::asset('storage/jquery.min.js') }}"></script>
 
-   <!--<script src="{{ URL::asset('bower_components/angular-animate/angular-animate.min.js') }}"></script>
-   <script src="{{ URL::asset('js/angular/ui-router.min.js') }}"></script>
-   <script src="{{ URL::asset('bower_components/angular-cookies/angular-cookies.min.js') }}"></script>
-   <script src="{{ URL::asset('bower_components/angular-loading-bar/src/loading-bar.js') }}"></script>-->
-
-   <script src="{{ URL::asset('js/main.js') }}"></script>
+   <script src="{{ URL::asset('storage/main.js') }}"></script>
    @yield('head')
 
 </head>
