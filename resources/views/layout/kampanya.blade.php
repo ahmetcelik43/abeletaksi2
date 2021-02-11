@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Anasayfa')
+@section('title', 'Kampanyalar')
 
 @section('heaad')
 <script src="{{ URL::asset('storage/js/kampanya.js') }}"></script>
