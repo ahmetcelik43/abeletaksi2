@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ahmet Çelik</title>
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
-    <link rel="stylesheet" href="{{ URL::asset('storage/bootstrap.min.css') }}" />
-    <link rel="stylesheet" href="{{ URL::asset('storage/all.css') }}" />
+    <link rel="stylesheet" href="{{ URL::asset('bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ URL::asset('all.css') }}" />
    
 
     <script src="https://kit.fontawesome.com/d1fc3fdb09.js" crossorigin="anonymous"></script>
 
-   <script src="{{ URL::asset('storage/bootstrap-native.min.js')}}"></script>
+   <script src="{{ URL::asset('bootstrap-native.min.js')}}"></script>
 
-   <script src="{{ URL::asset('storage/angular.min.js') }}"></script>
-   <script src="{{ URL::asset('storage/jquery.min.js') }}"></script>
+   <script src="{{ URL::asset('angular.min.js') }}"></script>
+   <script src="{{ URL::asset('jquery.min.js') }}"></script>
 
-   <script src="{{ URL::asset('storage/main.js') }}"></script>
+   <script src="{{ URL::asset('main.js') }}"></script>
    @yield('head')
 
 </head>
