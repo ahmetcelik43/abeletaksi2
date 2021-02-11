@@ -24,10 +24,10 @@
 <body ng-app="main" ng-controller="main">
  <!-- <div class="loading">
     <div class="logo-container">
-           <img src="/images/logo.jpeg" class="logo" alt="">
+           <img src="/logo.jpeg" class="logo" alt="">
 
   </div>
-        <img class="page-loader" src="/images/loading.svg" alt="">
+        <img class="page-loader" src="/loading.svg" alt="">
   </div>
 -->
   <div class="container-all " >
@@ -45,7 +45,7 @@
       <a>İletişim</a>
     </div>
     <div id="navbar-top-custom">
-      <img class="page-loader" src="storage/img/logo.jpeg" alt="">
+      <img class="page-loader" src="/logo.jpeg" alt="">
      <div class="navbar-top">
      
       <ul class="navbar-right-custom">
@@ -71,7 +71,7 @@
     </div>
     <div class="row footer-bottom">
       <div class="col-md-6 col-xs-12">
-        <img class="page-loader" src="storage/img/logo.jpeg" alt="">
+        <img class="page-loader" src="/logo.jpeg" alt="">
 
       </div>
     </div>
