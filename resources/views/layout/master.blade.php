@@ -12,7 +12,7 @@
 
     <script src="https://kit.fontawesome.com/d1fc3fdb09.js" crossorigin="anonymous"></script>
 
-   <script src="{{ URL::asset('node_modules/bootstrap.native/dist/bootstrap-native.min.js')}}"></script>
+   <script src="{{ URL::asset('storage/bootstrap-native.min.js')}}"></script>
 
    <script src="{{ URL::asset('storage/angular.min.js') }}"></script>
    <script src="{{ URL::asset('storage/jquery.min.js') }}"></script>
